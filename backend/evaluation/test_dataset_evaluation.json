@@ -1,0 +1,1816 @@
+[
+  {
+    "id": 1,
+    "category": "Domestic Violence",
+    "question": "My husband beats me every day. What legal protection do I have?",
+    "expected_answer": "A woman experiencing domestic violence can seek protection under the Protection of Women from Domestic Violence Act. She may obtain protection orders, residence orders, and assistance from a Protection Officer.",
+    "relevant_chunk_ids": [
+      6,
+      86,
+      103
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "domestic violence",
+      "protection order",
+      "magistrate"
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Domestic Violence",
+    "question": "My husband beats me when I refuse to give him money. What can I do?",
+    "expected_answer": "Financial coercion is considered economic abuse under the Protection of Women from Domestic Violence Act. You can approach a Protection Officer or Magistrate to seek monetary relief and protection orders.",
+    "relevant_chunk_ids": [
+      86,
+      97,
+      103
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "economic abuse",
+      "protection officer",
+      "monetary relief"
+    ]
+  },
+  {
+    "id": 3,
+    "category": "Domestic Violence",
+    "question": "My in-laws always taunt me for not bringing dowry and stop me from eating food. Can I take legal help?",
+    "expected_answer": "Denying food and taunting for dowry amounts to emotional and economic abuse under the Domestic Violence Act. You can file a complaint before a Magistrate or seek help from a Protection Officer.",
+    "relevant_chunk_ids": [
+      63,
+      87,
+      290
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "economic and emotional abuse",
+      "magistrate",
+      "relief"
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Domestic Violence",
+    "question": "My husband does not allow me to work and keeps insulting me in front of others. Is this violence?",
+    "expected_answer": "Yes, restricting employment and public humiliation constitute economic and emotional abuse under the Protection of Women from Domestic Violence Act. Legal remedies and protection orders can be sought.",
+    "relevant_chunk_ids": [
+      88,
+      96,
+      289
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "emotional and economic abuse",
+      "relief",
+      "Domestic Violence Act"
+    ]
+  },
+  {
+    "id": 5,
+    "category": "Domestic Violence",
+    "question": "My brother-in-law touches me inappropriately. Can I complain under the Domestic Violence Act?",
+    "expected_answer": "Yes, any act of sexual harassment or inappropriate physical contact by a family member living in the shared household is covered under the Domestic Violence Act.",
+    "relevant_chunk_ids": [
+      89,
+      96
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "shared household",
+      "sexual harassment",
+      "relative"
+    ]
+  },
+  {
+    "id": 6,
+    "category": "Domestic Violence",
+    "question": "My husband threw me out of the house at night. Can I ask to stay again in the house?",
+    "expected_answer": "Under the Domestic Violence Act, a woman has a legal right to reside in the shared household, and a Magistrate can pass residence orders preventing her eviction or securing re-entry.",
+    "relevant_chunk_ids": [
+      90,
+      100
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "shared household",
+      "right to stay",
+      "house rights"
+    ]
+  },
+  {
+    "id": 7,
+    "category": "Domestic Violence",
+    "question": "My in-laws force me to hand over my salary every month. Is there any law for this?",
+    "expected_answer": "Forcibly taking control of a working woman's salary is classified as economic abuse under the Protection of Women from Domestic Violence Act, allowing her to seek monetary relief.",
+    "relevant_chunk_ids": [
+      63,
+      91,
+      290
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "economic abuse",
+      "monetary relief",
+      "salary"
+    ]
+  },
+  {
+    "id": 8,
+    "category": "Domestic Violence",
+    "question": "My husband often threatens me that he will harm my child if I don't obey him. What should I do?",
+    "expected_answer": "Threatening to harm children causes severe emotional abuse and mental trauma. You can seek legal protection, temporary custody orders, and intervention via the Domestic Violence Act.",
+    "relevant_chunk_ids": [
+      88,
+      92,
+      293
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "emotional abuse",
+      "custody",
+      "protection"
+    ]
+  },
+  {
+    "id": 9,
+    "category": "Domestic Violence",
+    "question": "My husband keeps accusing me of affairs without proof. Is this covered under law?",
+    "expected_answer": "Constant false accusations and character assassination amount to mental cruelty and emotional abuse, which are actionable under the Domestic Violence Act.",
+    "relevant_chunk_ids": [
+      93,
+      301
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "emotional abuse",
+      "false accusations",
+      "Domestic Violence Act"
+    ]
+  },
+  {
+    "id": 10,
+    "category": "Domestic Violence",
+    "question": "My husband does not buy medicines for me when I am sick. Is this violence?",
+    "expected_answer": "Withholding essential medical care and necessities constitutes economic and physical neglect under the scope of domestic violence laws.",
+    "relevant_chunk_ids": [
+      86,
+      88,
+      94
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "economic abuse",
+      "medical aid",
+      "medical neglect"
+    ]
+  },
+  {
+    "id": 11,
+    "category": "Workplace Rights",
+    "question": "What is considered sexual harassment at the workplace?",
+    "expected_answer": "Sexual harassment includes unwelcome physical contact, demands for sexual favours, making sexually coloured remarks, showing pornography, or any other unwelcome physical, verbal, or non-verbal conduct of a sexual nature.",
+    "relevant_chunk_ids": [
+      16,
+      39,
+      171
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "unwelcome conduct",
+      "sexual favours",
+      "physical contact"
+    ]
+  },
+  {
+    "id": 12,
+    "category": "Workplace Rights",
+    "question": "What is the role of the Internal Complaints Committee (ICC) under POSH Act?",
+    "expected_answer": "The Internal Complaints Committee (ICC) is mandated under the POSH Act to receive, investigate, and inquire into complaints of sexual harassment at the workplace, headed by a senior woman employee and including an external member.",
+    "relevant_chunk_ids": [
+      17,
+      18,
+      45
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "Internal Complaints Committee",
+      "Chairperson",
+      "external NGO member"
+    ]
+  },
+  {
+    "id": 13,
+    "category": "Workplace Rights",
+    "question": "What if a workplace has fewer than 10 employees under POSH Act?",
+    "expected_answer": "If an establishment has fewer than 10 employees, complaints can be filed with the Local Complaints Committee (LCC) set up at the district level by the appropriate government.",
+    "relevant_chunk_ids": [
+      17,
+      18,
+      45
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "Local Complaints Committee",
+      "LCC",
+      "district level"
+    ]
+  },
+  {
+    "id": 14,
+    "category": "Workplace Rights",
+    "question": "What is the time limit to file a sexual harassment complaint?",
+    "expected_answer": "Under Section 9 of the POSH Act, an aggrieved woman must file a written complaint within 3 months from the date of the incident, or within 3 months from the last incident in case of a series of incidents.",
+    "relevant_chunk_ids": [
+      19,
+      43,
+      163
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "3 months",
+      "Section 9",
+      "POSH"
+    ]
+  },
+  {
+    "id": 15,
+    "category": "Workplace Rights",
+    "question": "How long does the ICC take to complete inquiry?",
+    "expected_answer": "The Internal Complaints Committee must complete its inquiry within a period of 90 days, following which the report is submitted to the employer.",
+    "relevant_chunk_ids": [
+      20,
+      43
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "90 days",
+      "inquiry",
+      "report"
+    ]
+  },
+  {
+    "id": 16,
+    "category": "Workplace Rights",
+    "question": "What is the punishment for sexual harassment proven under POSH?",
+    "expected_answer": "Punishments under POSH can include disciplinary action, wage deduction, or termination, along with monetary compensation awarded to the victim for mental trauma and loss of career opportunities.",
+    "relevant_chunk_ids": [
+      19,
+      21,
+      163
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "compensation",
+      "mental trauma",
+      "penalties"
+    ]
+  },
+  {
+    "id": 17,
+    "category": "Workplace Rights - Scenario",
+    "question": "My male colleague keeps making sexually coloured jokes during meetings. Is this harassment?",
+    "expected_answer": "Yes, sexually coloured remarks and jokes create a hostile work environment and fall squarely under workplace sexual harassment, which can be reported to the ICC under the POSH Act.",
+    "relevant_chunk_ids": [
+      36,
+      171
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "sexually coloured remarks",
+      "POSH Act",
+      "Internal Complaints Committee"
+    ]
+  },
+  {
+    "id": 18,
+    "category": "Workplace Rights - Scenario",
+    "question": "A senior asked me for a dinner meeting and hinted that I would get a promotion if I agreed. What should I do?",
+    "expected_answer": "This is a classic case of quid pro quo (implicit or explicit promise of preferential treatment in employment) sexual harassment. You should document the evidence and report it immediately to the ICC.",
+    "relevant_chunk_ids": [
+      37,
+      173
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "quid pro quo",
+      "sexual favours",
+      "ICC"
+    ]
+  },
+  {
+    "id": 19,
+    "category": "Workplace Rights - Scenario",
+    "question": "During a video call, a colleague displayed inappropriate content on screen. Can I complain under POSH?",
+    "expected_answer": "Yes, virtual workspaces and official digital communication platforms are covered under the POSH Act, and displaying pornography constitutes workplace sexual harassment.",
+    "relevant_chunk_ids": [
+      38,
+      42
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "virtual workplace",
+      "pornography",
+      "ICC"
+    ]
+  },
+  {
+    "id": 20,
+    "category": "Workplace Rights - Scenario",
+    "question": "I was touched inappropriately by my manager at an office party. Does this count as workplace harassment?",
+    "expected_answer": "Yes, office-sponsored events, parties, and off-site gatherings are considered extensions of the workplace under the POSH Act, and unwelcome physical contact is actionable.",
+    "relevant_chunk_ids": [
+      39,
+      171,
+      176
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "unwelcome physical contact",
+      "office party",
+      "POSH Act"
+    ]
+  },
+  {
+    "id": 21,
+    "category": "Dowry Laws",
+    "question": "What is the meaning of dowry under Indian law?",
+    "expected_answer": "Under the Dowry Prohibition Act, dowry means any property or valuable security demanded or given directly or indirectly at, before, or any time after marriage.",
+    "relevant_chunk_ids": [
+      46,
+      47,
+      61
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "property",
+      "valuable security",
+      "marriage"
+    ]
+  },
+  {
+    "id": 22,
+    "category": "Dowry Laws",
+    "question": "Is giving or taking dowry an offence?",
+    "expected_answer": "Yes, giving, taking, or even abetting the giving and taking of dowry is a punishable offence under the Dowry Prohibition Act.",
+    "relevant_chunk_ids": [
+      47,
+      50,
+      150
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "Dowry Prohibition Act",
+      "offence",
+      "punishable"
+    ]
+  },
+  {
+    "id": 23,
+    "category": "Dowry Laws",
+    "question": "Are any gifts allowed at the time of marriage?",
+    "expected_answer": "Voluntary, customary presents given without any demand—provided they are listed in a proper written record maintained as per rules—are permitted and not treated as unlawful dowry.",
+    "relevant_chunk_ids": [
+      48,
+      49,
+      59
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "customary presents",
+      "voluntarily",
+      "written record"
+    ]
+  },
+  {
+    "id": 24,
+    "category": "Dowry Laws",
+    "question": "What is the punishment for giving or taking dowry?",
+    "expected_answer": "The punishment for giving, taking, or demanding dowry is imprisonment for a term of not less than 5 years and a fine of not less than fifteen thousand rupees or the amount of the value of the dowry.",
+    "relevant_chunk_ids": [
+      47,
+      50,
+      55
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "5 years",
+      "imprisonment",
+      "fine"
+    ]
+  },
+  {
+    "id": 25,
+    "category": "Dowry Laws",
+    "question": "What is Section 498A IPC?",
+    "expected_answer": "Section 498A of the IPC penalizes cruelty—physical or mental harassment by the husband or his relatives, particularly regarding unlawful demands for property or dowry.",
+    "relevant_chunk_ids": [
+      51,
+      231,
+      263
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "cruelty",
+      "husband or his relatives",
+      "harassment"
+    ]
+  },
+  {
+    "id": 26,
+    "category": "Dowry Laws - Scenario",
+    "question": "My in-laws are demanding a car after my marriage. Is this considered dowry?",
+    "expected_answer": "Yes, demanding a car or any valuable item after or during marriage as a condition is a direct violation of the Dowry Prohibition Act.",
+    "relevant_chunk_ids": [
+      56,
+      63,
+      274
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "valuable security",
+      "Dowry Prohibition Act",
+      "demand"
+    ]
+  },
+  {
+    "id": 27,
+    "category": "Dowry Laws - Scenario",
+    "question": "My husband's family keeps taunting me for not bringing enough gifts from my parents. Can I complain?",
+    "expected_answer": "Yes, constant taunts and harassment for insufficient gifts or indirect dowry demands amount to mental cruelty under Section 498A IPC.",
+    "relevant_chunk_ids": [
+      48,
+      57,
+      97
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "mental cruelty",
+      "Section 498A",
+      "Dowry Prohibition Act"
+    ]
+  },
+  {
+    "id": 28,
+    "category": "Dowry Laws - Scenario",
+    "question": "My friend's sister died under mysterious circumstances within 5 years of her marriage. The in-laws were demanding dowry. What can be done?",
+    "expected_answer": "This can be prosecuted as a 'dowry death' under Section 304B of the IPC, which applies if a woman dies of unnatural causes within 7 years of marriage amid proven dowry harassment.",
+    "relevant_chunk_ids": [
+      58,
+      269,
+      275
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "dowry death",
+      "Section 304B",
+      "7 years"
+    ]
+  },
+  {
+    "id": 29,
+    "category": "Dowry Laws - Scenario",
+    "question": "If my parents voluntarily gift gold to me during my marriage, will it be treated as dowry?",
+    "expected_answer": "Gifts given voluntarily without any prior demand, as customary presents, are legally permissible and do not fall under the penal definition of dowry.",
+    "relevant_chunk_ids": [
+      59,
+      101,
+      273
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "voluntary",
+      "customary presents",
+      "not considered dowry"
+    ]
+  },
+  {
+    "id": 30,
+    "category": "Dowry Laws - Scenario",
+    "question": "My sister is being physically abused because her in-laws are pressuring her to bring more money from her parents. What law can protect her?",
+    "expected_answer": "She can seek protection and file criminal charges under Section 498A IPC for cruelty and under the Dowry Prohibition Act for unlawful demands.",
+    "relevant_chunk_ids": [
+      60,
+      68,
+      258
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "Section 498A",
+      "Dowry Prohibition Act",
+      "cruelty"
+    ]
+  },
+  {
+    "id": 31,
+    "category": "Child Marriage",
+    "question": "What is the legal age of marriage for girls and boys in India?",
+    "expected_answer": "The legal age of marriage in India is 18 years for women and 21 years for men.",
+    "relevant_chunk_ids": [
+      106,
+      107,
+      125
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "18",
+      "21",
+      "legal age"
+    ]
+  },
+  {
+    "id": 32,
+    "category": "Child Marriage",
+    "question": "If a girl is married before 18, is it legal?",
+    "expected_answer": "No, a marriage where either party is below the legal age is categorized as a child marriage and is illegal under the Prohibition of Child Marriage Act.",
+    "relevant_chunk_ids": [
+      107,
+      108,
+      110
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "child marriage",
+      "against the law",
+      "not legal"
+    ]
+  },
+  {
+    "id": 33,
+    "category": "Child Marriage",
+    "question": "If a child is forced to marry, can the marriage be cancelled?",
+    "expected_answer": "Yes, a child marriage is voidable at the option of the contracting party who was a child at the time of the marriage, through a petition filed in court.",
+    "relevant_chunk_ids": [
+      109,
+      121,
+      322
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "court",
+      "cancel the marriage",
+      "Prohibition of Child Marriage Act"
+    ]
+  },
+  {
+    "id": 34,
+    "category": "Child Marriage",
+    "question": "What number can I call to stop child marriage?",
+    "expected_answer": "You can report or seek intervention against child marriage by calling the national child helpline number 1098 (CHILDLINE).",
+    "relevant_chunk_ids": [
+      109,
+      113,
+      114
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "CHILDLINE",
+      "1098",
+      "helpline"
+    ]
+  },
+  {
+    "id": 35,
+    "category": "Child Marriage",
+    "question": "Where can I complain about child marriage?",
+    "expected_answer": "Complaints can be lodged with the local police, a designated Child Marriage Prohibition Officer, or directly before the Judicial Magistrate/District Court.",
+    "relevant_chunk_ids": [
+      113,
+      114,
+      116
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "District Court",
+      "police",
+      "Child Marriage Prohibition Officer"
+    ]
+  },
+  {
+    "id": 36,
+    "category": "Child Marriage",
+    "question": "What is the punishment for child marriage?",
+    "expected_answer": "Adult males marrying a child, persons who solemnize, promote, or direct a child marriage are punishable with rigorous imprisonment up to 2 years and a fine up to 1 lakh rupees.",
+    "relevant_chunk_ids": [
+      112,
+      121,
+      157
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "jailed",
+      "fined",
+      "parents"
+    ]
+  },
+  {
+    "id": 37,
+    "category": "Crimes Against Women - IPC 354A",
+    "question": "What is IPC 354A?",
+    "expected_answer": "IPC Section 354A criminalizes acts of sexual harassment including unwelcome physical contact, demands for sexual favours, showing pornography against will, or making sexually coloured remarks.",
+    "relevant_chunk_ids": [
+      161,
+      168,
+      181
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "sexual harassment",
+      "physical contact",
+      "sexually coloured remarks"
+    ]
+  },
+  {
+    "id": 38,
+    "category": "Crimes Against Women - IPC 354A",
+    "question": "What is the punishment for sexual harassment under IPC 354A?",
+    "expected_answer": "Punishments under IPC 354A vary; making sexually coloured remarks carries imprisonment up to 1 year or fine or both, while physical contact and demands for sexual favours carry rigorous imprisonment up to 3 years and a fine.",
+    "relevant_chunk_ids": [
+      162,
+      163,
+      178
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "3 years",
+      "jail",
+      "fine"
+    ]
+  },
+  {
+    "id": 39,
+    "category": "Crimes Against Women - IPC 354A",
+    "question": "Is IPC 354A a bailable offence?",
+    "expected_answer": "Offences under IPC 354A (such as physical contact or sexual demands) are generally cognizable and bailable depending on the specific sub-clause and magistrate discretion.",
+    "relevant_chunk_ids": [
+      164,
+      184,
+      234
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "bailable",
+      "IPC 354A"
+    ]
+  },
+  {
+    "id": 40,
+    "category": "Crimes Against Women - IPC 354A",
+    "question": "Can sexual harassment cases under IPC 354A be settled between parties?",
+    "expected_answer": "Most major clauses under IPC 354A are non-compoundable, meaning they cannot be casually compromised or settled out of court without formal judicial approval.",
+    "relevant_chunk_ids": [
+      166,
+      167,
+      178
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "not compoundable",
+      "settled outside court",
+      "cannot be legally settled"
+    ]
+  },
+  {
+    "id": 41,
+    "category": "Crimes Against Women - IPC 354A",
+    "question": "If a man keeps making dirty jokes about me at work, is it sexual harassment?",
+    "expected_answer": "Yes, making sexually coloured remarks or dirty jokes falls under sexual harassment pursuant to Section 354A IPC.",
+    "relevant_chunk_ids": [
+      36,
+      39,
+      171
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "sexually coloured remarks",
+      "IPC 354A",
+      "harassment"
+    ]
+  },
+  {
+    "id": 42,
+    "category": "Crimes Against Women - IPC 354A",
+    "question": "My boss asked me for sexual favours to give me a promotion. What can I do?",
+    "expected_answer": "Demanding sexual favours for career advancement is a criminal offence under IPC 354A, and you can file a formal police complaint or register an internal grievance.",
+    "relevant_chunk_ids": [
+      36,
+      37,
+      173
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "sexual favours",
+      "IPC 354A",
+      "crime"
+    ]
+  },
+  {
+    "id": 43,
+    "category": "Crimes Against Women - IPC 354B",
+    "question": "What is IPC 354B in simple words?",
+    "expected_answer": "IPC 354B deals with assault or use of criminal force on a woman with intent to disrobe or compel her to be naked in public or private.",
+    "relevant_chunk_ids": [
+      161,
+      168,
+      181
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "assaulting",
+      "removing her clothes",
+      "intent to disrobe"
+    ]
+  },
+  {
+    "id": 44,
+    "category": "Crimes Against Women - IPC 354B",
+    "question": "If someone tries to pull off a woman's saree in public, is it covered under IPC 354B?",
+    "expected_answer": "Yes, acts intended to strip or disrobe a woman constitute a grave offense under Section 354B IPC.",
+    "relevant_chunk_ids": [
+      182,
+      191,
+      194
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "disrobe",
+      "force",
+      "IPC 354B"
+    ]
+  },
+  {
+    "id": 45,
+    "category": "Crimes Against Women - IPC 354B",
+    "question": "What punishment does a man get under IPC 354B?",
+    "expected_answer": "Offenders under IPC 354B face rigorous imprisonment for a term ranging from 3 to 7 years along with a liability for fine.",
+    "relevant_chunk_ids": [
+      163,
+      183,
+      232
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "3 years",
+      "7 years",
+      "fine"
+    ]
+  },
+  {
+    "id": 46,
+    "category": "Crimes Against Women - IPC 354B",
+    "question": "Is IPC 354B a bailable offence?",
+    "expected_answer": "No, IPC 354B is a cognizable and non-bailable offence.",
+    "relevant_chunk_ids": [
+      164,
+      184,
+      234
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "non-bailable",
+      "IPC 354B"
+    ]
+  },
+  {
+    "id": 47,
+    "category": "Crimes Against Women - IPC 354C",
+    "question": "If a man secretly records a woman in the bathroom, is it a crime?",
+    "expected_answer": "Yes, secretly watching or capturing images of a woman engaging in a private act where she expects privacy constitutes voyeurism under IPC 354C.",
+    "relevant_chunk_ids": [
+      196,
+      198,
+      204
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "voyeurism",
+      "IPC 354C",
+      "consent"
+    ]
+  },
+  {
+    "id": 48,
+    "category": "Crimes Against Women - IPC 354C",
+    "question": "What happens if someone takes photos of a woman changing clothes in a trial room?",
+    "expected_answer": "Capturing or distributing images of a woman changing in a trial room violates her privacy and is punishable under Section 354C IPC for voyeurism.",
+    "relevant_chunk_ids": [
+      192,
+      195,
+      197
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "privacy",
+      "trial room",
+      "IPC 354C"
+    ]
+  },
+  {
+    "id": 49,
+    "category": "Crimes Against Women - IPC 354C",
+    "question": "What is the punishment for voyeurism under IPC 354C?",
+    "expected_answer": "First-time conviction under IPC 354C carries imprisonment from 1 to 3 years and a fine, with harsher penalties for repeat offenses.",
+    "relevant_chunk_ids": [
+      163,
+      201,
+      205
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "1 to 3 years",
+      "imprisonment",
+      "fine"
+    ]
+  },
+  {
+    "id": 50,
+    "category": "Crimes Against Women - IPC 354D",
+    "question": "If a man keeps following a woman on the road even after she tells him to stop, is it a crime?",
+    "expected_answer": "Yes, repeatedly following a woman or contacting her despite clear indication of disinterest constitutes stalking under IPC 354D.",
+    "relevant_chunk_ids": [
+      206,
+      209,
+      214
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "stalking",
+      "IPC 354D",
+      "repeatedly following"
+    ]
+  },
+  {
+    "id": 51,
+    "category": "Crimes Against Women - IPC 354D",
+    "question": "Is messaging or calling a woman again and again without her interest a crime?",
+    "expected_answer": "Yes, monitoring or contacting a woman via digital media, calls, or messages repeatedly despite her clear disinterest amounts to electronic stalking under IPC 354D.",
+    "relevant_chunk_ids": [
+      41,
+      188,
+      207
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "stalking",
+      "unwanted calls",
+      "IPC 354D"
+    ]
+  },
+  {
+    "id": 52,
+    "category": "Crimes Against Women - IPC 354D",
+    "question": "What is the punishment for stalking?",
+    "expected_answer": "Stalking carries imprisonment up to 3 years for a first offense and fine, and up to 5 years for subsequent convictions.",
+    "relevant_chunk_ids": [
+      163,
+      211,
+      212
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "3 years",
+      "fine",
+      "stalking"
+    ]
+  },
+  {
+    "id": 53,
+    "category": "Rape Laws - IPC 376",
+    "question": "A police officer forced himself on me inside the station, what law protects me?",
+    "expected_answer": "This constitutes custodial rape punishable under Section 376 IPC, carrying severe penalties with a minimum imprisonment term starting at 10 years extending to life.",
+    "relevant_chunk_ids": [
+      227,
+      251,
+      264
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "IPC 376",
+      "police",
+      "minimum 10 years"
+    ]
+  },
+  {
+    "id": 54,
+    "category": "Rape Laws - IPC 376A",
+    "question": "What does IPC 376A mean?",
+    "expected_answer": "IPC 376A penalizes sexual assault cases that result in the death of the victim or leave her in a persistent vegetative state.",
+    "relevant_chunk_ids": [
+      216,
+      231,
+      241
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "death",
+      "vegetative state",
+      "permanent unconscious state"
+    ]
+  },
+  {
+    "id": 55,
+    "category": "Rape Laws - IPC 376A",
+    "question": "What is the least punishment under IPC 376A?",
+    "expected_answer": "The minimum punishment under IPC 376A is rigorous imprisonment for 20 years, which can extend up to life imprisonment or the death penalty.",
+    "relevant_chunk_ids": [
+      217,
+      232,
+      237
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "20 years",
+      "jail",
+      "IPC 376A"
+    ]
+  },
+  {
+    "id": 56,
+    "category": "Rape Laws - IPC 376B",
+    "question": "Can a husband be punished for forcing sex on his wife if they are living separately?",
+    "expected_answer": "Yes, sexual intercourse by a husband with his wife while they are separated (under decree or custom) without her consent is punishable under IPC 376B.",
+    "relevant_chunk_ids": [
+      226,
+      253,
+      262
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "IPC 376B",
+      "living separately",
+      "without consent"
+    ]
+  },
+  {
+    "id": 57,
+    "category": "Rape Laws - IPC 376B",
+    "question": "How many years of jail can a husband get under IPC 376B?",
+    "expected_answer": "The punishment under IPC 376B is imprisonment of either description for a term not less than 2 years extending up to 7 years, along with a fine.",
+    "relevant_chunk_ids": [
+      228,
+      232,
+      237
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "2 to 7 years",
+      "fine",
+      "jail"
+    ]
+  },
+  {
+    "id": 58,
+    "category": "Rape Laws - IPC 376C",
+    "question": "What is IPC 376C?",
+    "expected_answer": "IPC 376C punishes sexual assault committed by a person in authority—such as a manager, employer, staff of a jail, remand home, hospital, or educational institution—over persons under their charge.",
+    "relevant_chunk_ids": [
+      216,
+      231,
+      241
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "person in authority",
+      "teacher",
+      "public servant"
+    ]
+  },
+  {
+    "id": 59,
+    "category": "Rape Laws - IPC 376C",
+    "question": "What is the punishment under IPC 376C?",
+    "expected_answer": "The punishment under IPC 376C is rigorous imprisonment for a term of 5 to 10 years, plus a fine.",
+    "relevant_chunk_ids": [
+      232,
+      237,
+      242
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "5 to 10 years",
+      "rigorous imprisonment",
+      "fine"
+    ]
+  },
+  {
+    "id": 60,
+    "category": "Rape Laws - IPC 376D",
+    "question": "What is IPC 376D?",
+    "expected_answer": "IPC 376D criminalizes gang rape, which occurs when a woman is raped by one or more persons acting in furtherance of a common intention.",
+    "relevant_chunk_ids": [
+      216,
+      231,
+      241
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "gang rape",
+      "two or more persons",
+      "common intention"
+    ]
+  },
+  {
+    "id": 61,
+    "category": "Rape Laws - IPC 376D",
+    "question": "What is the punishment under IPC 376D?",
+    "expected_answer": "Gang rape carries rigorous imprisonment for a term not less than 20 years, which may extend to imprisonment for life, meaning the remainder of the person's natural life.",
+    "relevant_chunk_ids": [
+      232,
+      237,
+      242
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "20 years",
+      "life imprisonment",
+      "fine"
+    ]
+  },
+  {
+    "id": 62,
+    "category": "Dowry Death - IPC 304B",
+    "question": "My sister died within 3 years of her marriage because her in-laws kept harassing her for money, is this dowry death?",
+    "expected_answer": "Yes, if a woman dies of unnatural burns or bodily injuries within 7 years of marriage and it is shown she faced cruelty regarding dowry demands, it qualifies as dowry death under IPC 304B.",
+    "relevant_chunk_ids": [
+      58,
+      269,
+      271
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "IPC 304B",
+      "dowry death",
+      "7 years"
+    ]
+  },
+  {
+    "id": 63,
+    "category": "Dowry Death - IPC 304B",
+    "question": "If a woman dies in her husband's house due to constant dowry demands, what law applies?",
+    "expected_answer": "Section 304B IPC applies when death occurs under unnatural circumstances linked to dowry harassment shortly before death.",
+    "relevant_chunk_ids": [
+      58,
+      64,
+      270
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "IPC 304B",
+      "dowry death",
+      "unnatural circumstances"
+    ]
+  },
+  {
+    "id": 64,
+    "category": "Dowry Death - IPC 304B",
+    "question": "Does dowry death law apply only if the woman dies within 7 years of marriage?",
+    "expected_answer": "Yes, a core legal prerequisite for invoking Section 304B IPC is that the death must occur within 7 years of the marriage.",
+    "relevant_chunk_ids": [
+      64,
+      269,
+      277
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "7 years",
+      "IPC 304B",
+      "dowry harassment"
+    ]
+  },
+  {
+    "id": 65,
+    "category": "Acid Attack - IPC 326A",
+    "question": "A man threw acid on my face because I rejected his proposal, what law protects me?",
+    "expected_answer": "Throwing acid or causing permanent/partial damage through acid is punishable under Section 326A IPC.",
+    "relevant_chunk_ids": [
+      279,
+      284,
+      286
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "IPC 326A",
+      "acid attack",
+      "10 years to life"
+    ]
+  },
+  {
+    "id": 66,
+    "category": "Acid Attack - IPC 326A",
+    "question": "My sister lost her eyesight after an acid attack, what law applies?",
+    "expected_answer": "Causing severe disfigurement, burns, or blindness via acid attacks falls under IPC 326A, which mandates strict punishment and compensation for medical expenses.",
+    "relevant_chunk_ids": [
+      281,
+      282,
+      283
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "IPC 326A",
+      "blindness",
+      "disabling injuries"
+    ]
+  },
+  {
+    "id": 67,
+    "category": "Acid Attack - IPC 326A",
+    "question": "Can the attacker get bail in acid attack cases?",
+    "expected_answer": "No, offences under Section 326A IPC are cognizable and strictly non-bailable.",
+    "relevant_chunk_ids": [
+      279,
+      284,
+      287
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "non-bailable",
+      "IPC 326A",
+      "Court of Session"
+    ]
+  },
+  {
+    "id": 68,
+    "category": "Cruelty and Harassment - IPC 498A",
+    "question": "My husband and his family constantly insult me and beat me over small things, what law can protect me?",
+    "expected_answer": "Physical and mental harassment by a husband or his relatives is punishable under Section 498A IPC with up to 3 years imprisonment and a fine.",
+    "relevant_chunk_ids": [
+      88,
+      103,
+      289
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "IPC 498A",
+      "cruelty",
+      "imprisonment"
+    ]
+  },
+  {
+    "id": 69,
+    "category": "Cruelty and Harassment - IPC 498A",
+    "question": "I am being mentally tortured and isolated by my husband, is this cruelty under law?",
+    "expected_answer": "Yes, intentional mental torture, humiliation, and deliberate isolation constitute cruelty under Section 498A IPC.",
+    "relevant_chunk_ids": [
+      289,
+      291,
+      293
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "mental cruelty",
+      "IPC 498A",
+      "relatives"
+    ]
+  },
+  {
+    "id": 70,
+    "category": "Insult to Modesty - IPC 509",
+    "question": "A man on the street whistled and made obscene gestures at me, can I take legal action?",
+    "expected_answer": "Yes, uttering any word, making any sound or gesture, or exhibiting any object intended to insult the modesty of a woman is punishable under Section 509 IPC.",
+    "relevant_chunk_ids": [
+      294,
+      298
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "IPC 509",
+      "insult a woman's modesty",
+      "obscene gesture"
+    ]
+  },
+  {
+    "id": 71,
+    "category": "Insult to Modesty - IPC 509",
+    "question": "Someone keeps sending me messages with vulgar words and pictures, does IPC 509 cover this?",
+    "expected_answer": "Sending vulgar, explicit messages or pictures intended to insult a woman's modesty can be prosecuted under Section 509 IPC alongside relevant IT Act provisions.",
+    "relevant_chunk_ids": [
+      295,
+      297,
+      300
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "IPC 509",
+      "insult modesty",
+      "vulgar words"
+    ]
+  },
+  {
+    "id": 72,
+    "category": "Criminal Intimidation - IPC 506",
+    "question": "My neighbor threatens to burn my house if I don't give him money, what law can I use?",
+    "expected_answer": "Criminal intimidation—threatening injury to person, property, or reputation—is punishable under Section 506 IPC.",
+    "relevant_chunk_ids": [
+      86,
+      97,
+      299
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "IPC 506",
+      "criminal intimidation",
+      "threat"
+    ]
+  },
+  {
+    "id": 73,
+    "category": "Criminal Intimidation - IPC 506",
+    "question": "Someone told me they will kill me if I testify in court, can I file a complaint?",
+    "expected_answer": "Yes, threats involving death, grievous hurt, or destruction of property carry enhanced imprisonment up to 7 years under Section 506 IPC.",
+    "relevant_chunk_ids": [
+      127,
+      177,
+      302
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "IPC 506",
+      "threat to cause death",
+      "7 years"
+    ]
+  },
+  {
+    "id": 74,
+    "category": "Police Procedure and Rights",
+    "question": "How can I file a police complaint?",
+    "expected_answer": "You can file a police complaint by visiting the local police station to record an oral or written First Information Report (FIR) under Section 154 CrPC.",
+    "relevant_chunk_ids": [
+      76,
+      127,
+      144
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "police station",
+      "FIR",
+      "CrPC Section 154"
+    ]
+  },
+  {
+    "id": 75,
+    "category": "Police Procedure and Rights",
+    "question": "What is an FIR?",
+    "expected_answer": "An FIR (First Information Report) is a written document prepared by police officers upon receiving information about the commission of a cognizable criminal offense.",
+    "relevant_chunk_ids": [
+      10,
+      128,
+      147
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "First Information Report",
+      "written report",
+      "police"
+    ]
+  },
+  {
+    "id": 76,
+    "category": "Police Procedure and Rights",
+    "question": "Can police refuse to write my FIR?",
+    "expected_answer": "Police cannot legally refuse to register an FIR for a cognizable offense; if they do, the complaint can be sent in writing to the Superintendent of Police or a Magistrate.",
+    "relevant_chunk_ids": [
+      10,
+      129,
+      147
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "cannot refuse",
+      "Superintendent of Police",
+      "Magistrate"
+    ]
+  },
+  {
+    "id": 77,
+    "category": "Police Procedure and Rights",
+    "question": "Can women be arrested at night?",
+    "expected_answer": "As a general rule, women cannot be arrested after sunset and before sunrise except in exceptional circumstances with prior written permission of a Judicial Magistrate.",
+    "relevant_chunk_ids": [
+      27,
+      132,
+      145
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "sunset and sunrise",
+      "magistrate",
+      "CrPC Section 46"
+    ]
+  },
+  {
+    "id": 78,
+    "category": "Police Procedure and Rights",
+    "question": "Can a male police search a woman?",
+    "expected_answer": "No, the search of a woman must be conducted strictly by another woman with strict regard to decency under criminal procedure rules.",
+    "relevant_chunk_ids": [
+      13,
+      133,
+      139
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "female police",
+      "decently",
+      "CrPC Section 51"
+    ]
+  },
+  {
+    "id": 79,
+    "category": "Police Procedure and Rights",
+    "question": "What are my rights if I am arrested?",
+    "expected_answer": "Arrested persons have the right to know the grounds of arrest, consult a legal practitioner of choice, undergo medical examination, and be produced before a magistrate within 24 hours.",
+    "relevant_chunk_ids": [
+      134,
+      135,
+      310
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "reason",
+      "lawyer",
+      "magistrate within 24 hours"
+    ]
+  },
+  {
+    "id": 80,
+    "category": "Police Procedure and Rights",
+    "question": "Can media show the name of a rape victim?",
+    "expected_answer": "No, publishing or printing the name or identifying details of a sexual assault victim is strictly prohibited and punishable under Section 228A IPC.",
+    "relevant_chunk_ids": [
+      137,
+      222,
+      259
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "identity",
+      "cannot be shown",
+      "IPC Section 228A"
+    ]
+  },
+  {
+    "id": 81,
+    "category": "Police Procedure and Rights",
+    "question": "Can I get free legal help if I have no money?",
+    "expected_answer": "Yes, women are universally entitled to free legal aid and representation through the District Legal Services Authority (DLSA) regardless of income.",
+    "relevant_chunk_ids": [
+      97,
+      138,
+      147
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "free lawyers",
+      "Legal Aid Services",
+      "Article 39A"
+    ]
+  },
+  {
+    "id": 82,
+    "category": "Trafficking",
+    "question": "Is trafficking the same as prostitution?",
+    "expected_answer": "Trafficking involves recruitment, transportation, or harboring of persons through force or fraud for exploitation, whereas sex work laws have separate specific definitions under the ITPA.",
+    "relevant_chunk_ids": [
+      151,
+      153,
+      157
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "recruiting",
+      "commercial sexual exploitation",
+      "ITPA"
+    ]
+  },
+  {
+    "id": 83,
+    "category": "Trafficking",
+    "question": "What does the Immoral Traffic (Prevention) Act cover?",
+    "expected_answer": "The Immoral Traffic (Prevention) Act (ITPA) targets commercial sexual exploitation, running brothels, trafficking persons, and living off earnings of sex work.",
+    "relevant_chunk_ids": [
+      152,
+      154
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "ITPA",
+      "brothel owners",
+      "commercial sexual exploitation"
+    ]
+  },
+  {
+    "id": 84,
+    "category": "Trafficking",
+    "question": "Can an adult woman's consent make trafficking legal?",
+    "expected_answer": "No, consent is rendered completely invalid if obtained through force, fraud, deception, coercion, or abuse of power in trafficking cases.",
+    "relevant_chunk_ids": [
+      151,
+      154,
+      155
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "force, fraud, coercion",
+      "not valid",
+      "victim of trafficking"
+    ]
+  },
+  {
+    "id": 85,
+    "category": "Constitutional Rights",
+    "question": "Can the government treat people from different religions differently under law?",
+    "expected_answer": "Article 14 of the Constitution guarantees equality before the law and equal protection of the laws to all persons within the territory of India without discrimination.",
+    "relevant_chunk_ids": [
+      304,
+      305
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "Article 14",
+      "equality before the law",
+      "equal protection"
+    ]
+  },
+  {
+    "id": 86,
+    "category": "Constitutional Rights",
+    "question": "Can the government make special rules or provisions for women and children?",
+    "expected_answer": "Yes, Article 15(3) explicitly enables the State to make special provisions and affirmative laws for the welfare and protection of women and children.",
+    "relevant_chunk_ids": [
+      0,
+      306,
+      309
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "Article 15(3)",
+      "special provisions",
+      "women and children"
+    ]
+  },
+  {
+    "id": 87,
+    "category": "Constitutional Rights",
+    "question": "Does Article 21 protect me from being arrested without reason?",
+    "expected_answer": "Article 21 guarantees protection of life and personal liberty, ensuring no person can be deprived of liberty except according to valid procedures established by law.",
+    "relevant_chunk_ids": [
+      131,
+      134,
+      312
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "Article 21",
+      "personal liberty",
+      "legal procedure"
+    ]
+  },
+  {
+    "id": 88,
+    "category": "Common Questions & Scenarios",
+    "question": "My husband beat me daily, what can I do?",
+    "expected_answer": "You can call the Women Helpline 181, reach out to a local Protection Officer, or file a petition under the Protection of Women from Domestic Violence Act.",
+    "relevant_chunk_ids": [
+      6,
+      86,
+      146
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "Domestic Violence Act",
+      "Protection Officer",
+      "Women Helpline 181"
+    ]
+  },
+  {
+    "id": 89,
+    "category": "Common Questions & Scenarios",
+    "question": "Police ask money for FIR, what I do?",
+    "expected_answer": "Filing an FIR is entirely free. If police demand money, you can report the officer to the Superintendent of Police or file a complaint before a judicial magistrate.",
+    "relevant_chunk_ids": [
+      127,
+      129,
+      147
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "FIR is free",
+      "Superintendent of Police",
+      "Magistrate"
+    ]
+  },
+  {
+    "id": 90,
+    "category": "Common Questions & Scenarios",
+    "question": "Man in bus touch me bad, what law help me?",
+    "expected_answer": "Unwanted physical molestation in public transport is punishable under Section 354 IPC for outraging a woman's modesty; you can dial emergency police helplines immediately.",
+    "relevant_chunk_ids": [
+      148,
+      172,
+      300
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "sexual harassment",
+      "IPC Section 354",
+      "police helpline"
+    ]
+  },
+  {
+    "id": 91,
+    "category": "Common Questions & Scenarios",
+    "question": "My child 14 year work in shop, is it allowed?",
+    "expected_answer": "Employment of children below 14 years in commercial shops is strictly prohibited under the Child Labour (Prohibition and Regulation) Act.",
+    "relevant_chunk_ids": [
+      35,
+      149,
+      154
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "Child Labour Act",
+      "below 14 cannot work",
+      "Childline 1098"
+    ]
+  },
+  {
+    "id": 92,
+    "category": "Common Questions & Scenarios",
+    "question": "Husband family ask more dowry after marriage, what I do?",
+    "expected_answer": "Post-marriage dowry demands are illegal under the Dowry Prohibition Act and can be reported as cruelty under Section 498A IPC.",
+    "relevant_chunk_ids": [
+      63,
+      65,
+      150
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "Dowry Prohibition Act",
+      "IPC 498A",
+      "crime"
+    ]
+  },
+  {
+    "id": 93,
+    "category": "Constitutional Rights",
+    "question": "If two people commit the same crime, can they be punished differently because of their caste?",
+    "expected_answer": "No, under Article 14, criminal laws apply equally to all citizens regardless of caste, creed, or social standing.",
+    "relevant_chunk_ids": [
+      124,
+      305
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "Article 14",
+      "applied equally",
+      "without discrimination"
+    ]
+  },
+  {
+    "id": 94,
+    "category": "Police Procedure and Rights",
+    "question": "What is a non-cognizable offence?",
+    "expected_answer": "A non-cognizable offense is one where a police officer has no authority to arrest the accused without a warrant from a magistrate.",
+    "relevant_chunk_ids": [
+      130,
+      233
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "minor offence",
+      "cannot arrest without court order",
+      "CrPC Section 2"
+    ]
+  },
+  {
+    "id": 95,
+    "category": "Child Marriage",
+    "question": "Is it a crime to help in child marriage?",
+    "expected_answer": "Yes, attending, promoting, facilitating, or solemnizing a child marriage is a punishable offense under the Prohibition of Child Marriage Act.",
+    "relevant_chunk_ids": [
+      112,
+      115,
+      121
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "crime",
+      "assisting child marriage",
+      "Prohibition of Child Marriage Act"
+    ]
+  },
+  {
+    "id": 96,
+    "category": "Dowry Laws",
+    "question": "Who can file a complaint under Section 498A IPC or Dowry Prohibition Act?",
+    "expected_answer": "A complaint can be filed by the victim herself, her blood relatives, or by a recognized public-welfare organization/institution on her behalf.",
+    "relevant_chunk_ids": [
+      7,
+      53,
+      65
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "victim herself",
+      "relatives",
+      "welfare organization"
+    ]
+  },
+  {
+    "id": 97,
+    "category": "Workplace Rights",
+    "question": "Can unmarried women claim maternity benefits?",
+    "expected_answer": "Yes, maternity leave and benefits under the Maternity Benefit Act apply to eligible female employees irrespective of their marital status.",
+    "relevant_chunk_ids": [
+      15,
+      23,
+      24
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "unmarried women",
+      "Maternity Benefit Act",
+      "entitled"
+    ]
+  },
+  {
+    "id": 98,
+    "category": "Domestic Violence",
+    "question": "Can a mother-in-law file a case against her daughter-in-law under this Act?",
+    "expected_answer": "No, respondents under the Domestic Violence Act must be adult male persons or specific specified relatives; a female cannot file a DV case against another female relative of the household under current interpretations.",
+    "relevant_chunk_ids": [
+      68,
+      83
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "female relatives",
+      "cannot file",
+      "Domestic Violence Act"
+    ]
+  },
+  {
+    "id": 99,
+    "category": "Crimes Against Women - IPC 354A",
+    "question": "Does this law protect only women?",
+    "expected_answer": "Yes, criminal provisions like IPC 354A are specifically structured to protect women against gender-based sexual harassment.",
+    "relevant_chunk_ids": [
+      3,
+      180,
+      306
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "protects women",
+      "from men",
+      "IPC 354A"
+    ]
+  },
+  {
+    "id": 100,
+    "category": "Rape Laws - IPC 376D",
+    "question": "What happens if a group of men rape a woman?",
+    "expected_answer": "A group assault constitutes gang rape under IPC 376D, attracting mandatory long-term incarceration or life sentences.",
+    "relevant_chunk_ids": [
+      244,
+      254
+    ],
+    "is_refusal": false,
+    "expected_keywords": [
+      "gang rape",
+      "IPC 376D",
+      "punished"
+    ]
+  },
+  {
+    "id": 101,
+    "category": "Rejection/Out-of-Scenario",
+    "question": "Can you write a python script to scrape stock market data and analyze trends?",
+    "expected_answer": "I am a legal information assistant specialized in women's rights and safety laws, so I cannot write programming scripts for stock market data.",
+    "relevant_chunk_ids": [],
+    "is_refusal": true,
+    "expected_keywords": [
+      "out of scope",
+      "legal chatbot",
+      "women safety laws"
+    ]
+  },
+  {
+    "id": 102,
+    "category": "Rejection/Out-of-Scenario",
+    "question": "What is the capital city of Australia and what are popular tourist spots there?",
+    "expected_answer": "I cannot answer travel or geography queries as my purpose is strictly limited to providing information on legal rights and women safety laws.",
+    "relevant_chunk_ids": [],
+    "is_refusal": true,
+    "expected_keywords": [
+      "cannot answer",
+      "legal information assistant",
+      "not related to law"
+    ]
+  },
+  {
+    "id": 103,
+    "category": "Rejection/Out-of-Scenario",
+    "question": "How do I bake a chocolate cake from scratch with vegan ingredients?",
+    "expected_answer": "I am unable to provide cooking recipes or culinary advice since I am a legal information assistant.",
+    "relevant_chunk_ids": [],
+    "is_refusal": true,
+    "expected_keywords": [
+      "recipe",
+      "legal assistant",
+      "not a legal query"
+    ]
+  },
+  {
+    "id": 104,
+    "category": "Rejection/Out-of-Scenario",
+    "question": "Can you translate this paragraph from French to Japanese for my travel blog?",
+    "expected_answer": "I do not perform general language translations for blogs, as my expertise focuses on legal guidance and safety laws.",
+    "relevant_chunk_ids": [],
+    "is_refusal": true,
+    "expected_keywords": [
+      "translation",
+      "legal documents only",
+      "cannot help"
+    ]
+  },
+  {
+    "id": 105,
+    "category": "Rejection/Out-of-Scenario",
+    "question": "What are the latest updates for the video game Grand Theft Auto VI?",
+    "expected_answer": "I cannot provide updates on video games or entertainment news because my database is dedicated solely to legal questions.",
+    "relevant_chunk_ids": [],
+    "is_refusal": true,
+    "expected_keywords": [
+      "video games",
+      "out of scope",
+      "legal database"
+    ]
+  },
+  {
+    "id": 106,
+    "category": "Rejection/Out-of-Scenario",
+    "question": "Who won the football World Cup in 2022 and what was the final score?",
+    "expected_answer": "Sports trivia and match scores are outside my scope of functionality as a legal assistant.",
+    "relevant_chunk_ids": [],
+    "is_refusal": true,
+    "expected_keywords": [
+      "sports",
+      "not covered",
+      "legal assistant"
+    ]
+  },
+  {
+    "id": 107,
+    "category": "Rejection/Out-of-Scenario",
+    "question": "Can you write a romantic poem about the sunset over the mountains?",
+    "expected_answer": "I cannot write poems or creative literature, as I am programmed to answer legal inquiries regarding women's protection laws.",
+    "relevant_chunk_ids": [],
+    "is_refusal": true,
+    "expected_keywords": [
+      "poetry",
+      "out of scope",
+      "legal context"
+    ]
+  },
+  {
+    "id": 108,
+    "category": "Rejection/Out-of-Scenario",
+    "question": "How do I fix a leaking kitchen faucet pipe using basic household tools?",
+    "expected_answer": "I am unable to offer plumbing repair guides or household maintenance instructions.",
+    "relevant_chunk_ids": [],
+    "is_refusal": true,
+    "expected_keywords": [
+      "plumbing",
+      "not legal advice",
+      "cannot assist"
+    ]
+  },
+  {
+    "id": 109,
+    "category": "Rejection/Out-of-Scenario",
+    "question": "What is the best camera setting for taking portraits in low light conditions?",
+    "expected_answer": "Photography tutorials and camera configurations are outside the scope of my legal assistance functions.",
+    "relevant_chunk_ids": [],
+    "is_refusal": true,
+    "expected_keywords": [
+      "photography",
+      "out of scope",
+      "legal chatbot"
+    ]
+  },
+  {
+    "id": 110,
+    "category": "Rejection/Out-of-Scenario",
+    "question": "Can you give me tips on how to train my new puppy to sit and stay?",
+    "expected_answer": "I cannot help with pet training or animal care advice, as my knowledge domain covers legal rights and protections.",
+    "relevant_chunk_ids": [],
+    "is_refusal": true,
+    "expected_keywords": [
+      "pet training",
+      "not law-related",
+      "unable to answer"
+    ]
+  }
+]

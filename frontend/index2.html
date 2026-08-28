@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Sakhi - RAG Chat Interface</title>
+    <style>
+        /* CSS remains largely the same for a clean look */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e9ebee;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .chat-container {
+            width: 100%;
+            max-width: 650px;
+            height: 90vh;
+            background-color: #fff;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .chat-header {
+            background-color: #2e7d32; /* Darker Legal Sakhi Green */
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.8em;
+            font-weight: 600;
+        }
+
+        .chat-messages {
+            flex-grow: 1;
+            padding: 20px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .message {
+            margin-bottom: 15px;
+            padding: 10px 15px;
+            border-radius: 20px;
+            max-width: 80%;
+            word-wrap: break-word;
+            line-height: 1.5;
+        }
+
+        .user-message {
+            background-color: #dcf8c6; /* WhatsApp user-like color */
+            margin-left: auto;
+            border-bottom-right-radius: 5px;
+        }
+
+        .bot-message {
+            background-color: #f1f0f0;
+            margin-right: auto;
+            border-bottom-left-radius: 5px;
+        }
+
+        .input-area {
+            display: flex;
+            padding: 15px;
+            background-color: #f6f6f6;
+            border-top: 1px solid #ddd;
+        }
+
+        #user-input {
+            flex-grow: 1;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 25px;
+            margin-right: 10px;
+            font-size: 1em;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        #user-input:focus {
+            border-color: #4CAF50;
+        }
+
+        #send-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s, opacity 0.3s;
+        }
+
+        #send-button:hover:not(:disabled) {
+            background-color: #388e3c;
+        }
+
+        #send-button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .status-indicator {
+            text-align: center;
+            padding: 5px 0;
+            font-style: italic;
+            color: #777;
+            display: none; /* Initially hidden */
+        }
+        
+        .error {
+            color: #d32f2f;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="chat-container">
+    <div class="chat-header">Legal Sakhi - RAG Assistant</div>
+    <div class="chat-messages" id="chat-messages">
+        <div class="message bot-message">Hello! I am Legal Sakhi, your RAG assistant. Ask me a question based on the documents I have been trained on.</div>
+    </div>
+    <div class="status-indicator" id="status-indicator"></div>
+    <div class="input-area">
+        <input type="text" id="user-input" placeholder="Ask your legal question here..." autofocus>
+        <button id="send-button">Send</button>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // --- Configuration ---
+        const BACKEND_URL = 'http://127.0.0.1:8000/chat';
+        const DEFAULT_TOP_K = 3;
+
+        // --- DOM Elements ---
+        const chatMessages = document.getElementById('chat-messages');
+        const userInput = document.getElementById('user-input');
+        const sendButton = document.getElementById('send-button');
+        const statusIndicator = document.getElementById('status-indicator');
+
+        // --- Utility Functions ---
+
+        function appendMessage(text, sender) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${sender}-message`;
+            messageDiv.innerHTML = text.replace(/\n/g, '<br>'); // Replace newlines with <br> for better formatting
+            chatMessages.appendChild(messageDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight; // Scroll to bottom
+        }
+
+        function setStatus(text, isError = false) {
+            statusIndicator.innerHTML = isError ? `<span class="error">${text}</span>` : text;
+            statusIndicator.style.display = text ? 'block' : 'none';
+        }
+
+        function toggleInput(disabled) {
+            userInput.disabled = disabled;
+            sendButton.disabled = disabled;
+        }
+
+        // --- Core Logic ---
+
+        async function handleSendMessage() {
+            const message = userInput.value.trim();
+
+            if (!message) return;
+
+            // 1. Setup: Display user message, clear input, disable controls
+            appendMessage(message, 'user');
+            userInput.value = '';
+            toggleInput(true);
+            setStatus("Legal Sakhi is searching and generating a reply...", false);
+
+            try {
+                const response = await fetch(BACKEND_URL, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        message: message,
+                        top_k: DEFAULT_TOP_K
+                    })
+                });
+
+                if (!response.ok) {
+                    const errorDetails = await response.json().catch(() => ({ error: 'Unknown JSON error' }));
+                    throw new Error(`Server responded with ${response.status}. Details: ${errorDetails.error || 'Check server console.'}`);
+                }
+
+                const data = await response.json();
+                
+                // 2. Success: Display bot's reply
+                const botReply = data.reply || "I didn't receive a clear response from the LLM.";
+                appendMessage(botReply, 'bot');
+
+                // Optional: Log retrieval data to console for debug
+                console.log("Retrieval Data:", data);
+
+            } catch (error) {
+                // 3. Error Handling
+                const errorMessage = `Failed to connect/get response from backend. Is Flask running at ${BACKEND_URL}? Error: ${error.message}`;
+                appendMessage(errorMessage, 'bot');
+                setStatus("Connection Error. Check console for details.", true);
+
+            } finally {
+                // 4. Cleanup: Re-enable controls and clear status
+                toggleInput(false);
+                setStatus("");
+                userInput.focus();
+            }
+        }
+
+        // --- Event Listeners ---
+        sendButton.addEventListener('click', handleSendMessage);
+        userInput.addEventListener('keypress', (event) => {
+            if (event.key === 'Enter') {
+                handleSendMessage();
+            }
+        });
+
+        // Confirmation message when the page loads
+        console.log("Frontend loaded. Attempting to connect to RAG backend at:", BACKEND_URL);
+    });
+</script>
+
+</body>
+</html>
